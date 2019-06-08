@@ -3,12 +3,12 @@
 
 This is the fifth and final course of the deep learning specialization at [Coursera](https://www.coursera.org/specializations/deep-learning) which is moderated by [deeplearning.ai](http://deeplearning.ai/). The course is taught by Andrew Ng.
 
-# Andrew NG Course Notes Collection on Kaggle
-* [Part-1 Neural Networks and Deep Learning](https://www.kaggle.com/ashishpatel26/andrewng-p-1-neural-network-deep-learning/)
-* [Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.kaggle.com/ashishpatel26/andrewng-p-2-improving-deep-learning-network)
-* [Part-3: Structuring Machine Learning Projects](https://www.kaggle.com/ashishpatel26/andrewng-p-3-structuring-ml-projects)
-* [Part-4 :Convolutional Neural Networks](https://www.kaggle.com/ashishpatel26/andrewng-p-4-convolutional-neural-network)
-* [Part-5 : Sequence Models](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
+# Andrew NG Course Notes Collection
+* [**Part-1 Neural Networks and Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)
+* [**Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)
+* [**Part-3: Structuring Machine Learning Projects**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)
+* [**Part-4 :Convolutional Neural Networks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)
+* [**Part-5 : Sequence Models**](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
 
 ## Table of contents
 * [Sequence Models](#sequence-models)
@@ -119,6 +119,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - y<sup><2></sup> = 1
 
 - T<sub>x</sub> is the size of the input sequence and T<sub>y</sub> is the size of the output sequence.
+  
   - T<sub>x</sub> = T<sub>y</sub> = 9 in the last example although they can be different in other problems.
 - x<sup>(i)\<t></sup> is the element t of the sequence of input vector i. Similarly y<sup>(i)\<t></sup> means the t-th element in the output sequence of the i training example.
 - T<sub>x</sub><sup>(i)</sup> the input sequence length for training example i. It can be different across the examples. Similarly for T<sub>y</sub><sup>(i)</sup> will be the length of the output sequence in the i-th training example.
@@ -295,7 +296,7 @@ Here are the course summary as its given on the course [link](https://www.course
     - Use LSTM/GRU networks.
       - Most popular.
       - We will discuss it next.
- 
+
 ### Gated Recurrent Unit (GRU)
 - GRU is an RNN type that can help solve the vanishing gradient problem and can remember the long-term dependencies.
 
@@ -333,8 +334,10 @@ Here are the course summary as its given on the course [link](https://www.course
       | full    | ..                         | ..              |
 - Drawing for the GRUs   
   ![](https://raw.githubusercontent.com/ashishpatel26/DeepLearning.ai-Summary/master/5-%20Sequence%20Models/Images//19.png)
+  
   - Drawings like in http://colah.github.io/posts/2015-08-Understanding-LSTMs/ is so popular and makes it easier to understand GRUs and LSTMs. But Andrew Ng finds it's better to look at the equations.
 - Because the update gate U is usually a small number like 0.00001, GRUs doesn't suffer the vanishing gradient problem.
+  
   - In the equation this makes C<sup>\<t></sup> = C<sup>\<t-1></sup> in a lot of cases.
 - Shapes:
   - a<sup>\<t></sup> shape is (NoOfHiddenNeurons, 1)
@@ -523,12 +526,12 @@ Here are the course summary as its given on the course [link](https://www.course
   - For example, we have the sentence: "I want a glass of orange juice to go along with my cereal"
   - We will choose **context** and **target**.
   - The target is chosen randomly based on a window with a specific size.
-   
+  
     | Context | Target | How far |
     | ------- | ------ | ------- |
     | orange  | juice  | +1      |
     | orange  | glass  | -2      |
-    | orange  | my     | +6      |    
+    | orange  | my     | +6      |
 
     We have converted the problem into a supervised problem.
   - This is not an easy learning problem because learning within -10/+10 words (10 - an example) is hard.
@@ -557,6 +560,7 @@ Here are the course summary as its given on the course [link](https://www.course
 #### Negative Sampling
 - Negative sampling allows you to do something similar to the skip-gram model, but with a much more efficient learning algorithm. We will create a different learning problem.
 - Given this example:
+  
   - "I want a glass of orange juice to go along with my cereal"
 - The sampling will look like this:
 - | Context | Word  | target |

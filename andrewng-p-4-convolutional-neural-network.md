@@ -3,12 +3,12 @@
 
 This is the fourth course of the deep learning specialization at [Coursera](https://www.coursera.org/specializations/deep-learning) which is moderated by [DeepLearning.ai](http://deeplearning.ai/). The course is taught by Andrew Ng.
 
-# Andrew NG Course Notes Collection on Kaggle
-* [Part-1 Neural Networks and Deep Learning](https://www.kaggle.com/ashishpatel26/andrewng-p-1-neural-network-deep-learning/)
-* [Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.kaggle.com/ashishpatel26/andrewng-p-2-improving-deep-learning-network)
-* [Part-3: Structuring Machine Learning Projects](https://www.kaggle.com/ashishpatel26/andrewng-p-3-structuring-ml-projects)
-* [Part-4 :Convolutional Neural Networks](https://www.kaggle.com/ashishpatel26/andrewng-p-4-convolutional-neural-network)
-* [Part-5 : Sequence Models](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
+# Andrew NG Course Notes Collection
+* [**Part-1 Neural Networks and Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)
+* [**Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)
+* [**Part-3: Structuring Machine Learning Projects**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)
+* [**Part-4 :Convolutional Neural Networks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)
+* [**Part-5 : Sequence Models**](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
 
 ## Table of contents
 
@@ -176,8 +176,9 @@ Here is the course summary as given on the course [link](https://www.coursera.or
 - When we are making the convolution operation we used `S` to tell us the number of pixels we will jump when we are convolving filter/kernel. The last examples we described S was 1.
 
 - Now the general rule are:
-  -  if a matrix `nxn` is convolved with `fxf` filter/kernel and padding `p` and stride `s` it give us `(n+2p-f)/s + 1,(n+2p-f)/s + 1` matrix. 
-
+  
+-  if a matrix `nxn` is convolved with `fxf` filter/kernel and padding `p` and stride `s` it give us `(n+2p-f)/s + 1,(n+2p-f)/s + 1` matrix. 
+  
 - In case `(n+2p-f)/s + 1` is fraction we can take **floor** of this value.
 
 - In math textbooks the conv operation is filpping the filter before using it. What we were doing is called cross-correlation operation but the state of art of deep learning is using this as conv operation.

@@ -3,12 +3,12 @@
 
 This is the second course of the deep learning specialization at [Coursera](https://www.coursera.org/specializations/deep-learning) which is moderated by [DeepLearning.ai](http://deeplearning.ai/). The course is taught by Andrew Ng.
 
-# Andrew NG Course Notes Collection on Kaggle
-* [Part-1 Neural Networks and Deep Learning](https://www.kaggle.com/ashishpatel26/andrewng-p-1-neural-network-deep-learning/)
-* [Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.kaggle.com/ashishpatel26/andrewng-p-2-improving-deep-learning-network)
-* [Part-3: Structuring Machine Learning Projects](https://www.kaggle.com/ashishpatel26/andrewng-p-3-structuring-ml-projects)
-* [Part-4 :Convolutional Neural Networks](https://www.kaggle.com/ashishpatel26/andrewng-p-4-convolutional-neural-network)
-* [Part-5 : Sequence Models](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
+# Andrew NG Course Notes Collection
+* [**Part-1 Neural Networks and Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)
+* [**Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)
+* [**Part-3: Structuring Machine Learning Projects**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)
+* [**Part-4 :Convolutional Neural Networks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)
+* **[Part-5 : Sequence Models](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md)**
 
 ## Table of contents
 
@@ -137,6 +137,7 @@ Here are the course summary as its given on the course [link](https://www.course
 
 - Adding regularization to NN will help it reduce variance (overfitting)
 - L1 matrix norm:
+  
   - `||W|| = Sum(|w[i,j]|)  # sum of absolute values of all w`
 - L2 matrix norm because of arcane technical math reasons is called Frobenius norm:
   - `||W||^2 = Sum(|w[i,j]|^2)	# sum of all w squared`
@@ -187,6 +188,7 @@ Here are some intuitions:
      - If `lambda` is too large, w's will be small (close to zero) - will use the linear part of the _tanh_ activation function, so we will go from non linear activation to _roughly_ linear which would make the NN a _roughly_ linear classifier.
      - If `lambda` good enough it will just make some of _tanh_ activations _roughly_ linear which will prevent overfitting.
      
+
 _**Implementation tip**_: if you implement gradient descent, one of the steps to debug gradient descent is to plot the cost function J as a function of the number of iterations of gradient descent and you want to see that the cost function J decreases **monotonically** after every elevation of gradient descent with regularization. If you plot the old definition of J (no regularization) then you might not see it decrease monotonically.
 
 
@@ -293,6 +295,7 @@ _**Implementation tip**_: if you implement gradient descent, one of the steps to
 
 - A partial solution to the Vanishing / Exploding gradients in NN is better or more careful choice of the random initialization of weights
 - In a single neuron (Perceptron model): `Z = w1x1 + w2x2 + ... + wnxn`
+  
   - So if `n_x` is large we want `W`'s to be smaller to not explode the cost.
 - So it turns out that we need the variance which equals `1/n_x` to be the range of `W`'s
 - So lets say when we initialize `W`'s like this (better to use with `tanh` activation):   
@@ -390,6 +393,7 @@ Implications of L2-regularization on:
 
 - Training NN with a large data is slow. So to find an optimization algorithm that runs faster is a good idea.
 - Suppose we have `m = 50 million`. To train this data it will take a huge processing time for one step.
+  
   - because 50 million won't fit in the memory at once we need other processing to make such a thing.
 - It turns out you can make a faster algorithm to make gradient descent process some of your items even before you finish the 50 million items.
 - Suppose we have split m to **mini batches** of size 1000.
@@ -434,7 +438,7 @@ Implications of L2-regularization on:
 - Guidelines for choosing mini-batch size:
   1. If small training set (< 2000 examples) - use batch gradient descent.
   2. It has to be a power of 2 (because of the way computer memory is layed out and accessed, sometimes your code runs faster if your mini-batch size is a power of 2):
-    `64, 128, 256, 512, 1024, ...`
+      `64, 128, 256, 512, 1024, ...`
   3. Make sure that mini-batch fits in CPU/GPU memory.
 - Mini-batch size is a `hyperparameter`.
 
@@ -680,6 +684,7 @@ Implications of L2-regularization on:
   - `W[1]`, `b[1]`, ..., `W[L]`, `b[L]`, `beta[1]`, `gamma[1]`, ..., `beta[L]`, `gamma[L]`
   - `beta[1]`, `gamma[1]`, ..., `beta[L]`, `gamma[L]` are updated using any optimization algorithms (like GD, RMSprop, Adam)
 - If you are using a deep learning framework, you won't have to implement batch norm yourself:
+  
   - Ex. in Tensorflow you can add this line: `tf.nn.batch-normalization()`
 - Batch normalization is usually applied with mini-batches.
 - If we are using batch normalization parameters `b[1]`, ..., `b[L]` doesn't count because they will be eliminated after mean subtraction step, so:
@@ -745,6 +750,7 @@ Implications of L2-regularization on:
 ### Training a Softmax classifier
 
 - There's an activation which is called hard max, which gets 1 for the maximum value and zeros for the others.
+  
   - If you are using NumPy, its `np.max` over the vertical axis.
 - The Softmax name came from softening the values and not harding them like hard max.
 - Softmax is a generalization of logistic activation function to `C` classes. If `C = 2` softmax reduces to logistic regression.

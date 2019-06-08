@@ -3,12 +3,12 @@
 
 This is the first course of the deep learning specialization at [Coursera](https://www.coursera.org/specializations/deep-learning) which is moderated by [DeepLearning.ai](http://deeplearning.ai/). The course is taught by Andrew Ng.
 
-# Andrew NG Course Notes Collection on Kaggle
-* [Part-1 Neural Networks and Deep Learning](https://www.kaggle.com/ashishpatel26/andrewng-p-1-neural-network-deep-learning/)
-* [Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.kaggle.com/ashishpatel26/andrewng-p-2-improving-deep-learning-network)
-* [Part-3: Structuring Machine Learning Projects](https://www.kaggle.com/ashishpatel26/andrewng-p-3-structuring-ml-projects)
-* [Part-4 :Convolutional Neural Networks](https://www.kaggle.com/ashishpatel26/andrewng-p-4-convolutional-neural-network)
-* [Part-5 : Sequence Models](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
+# Andrew NG Course Notes Collection
+* [**Part-1 Neural Networks and Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)
+* [**Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)
+* [**Part-3: Structuring Machine Learning Projects**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)
+* [**Part-4 :Convolutional Neural Networks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)
+* **[Part-5 : Sequence Models](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md)**
 
 ## Table of contents
 
@@ -121,7 +121,7 @@ Here are the course summary as its given on the course [link](https://www.course
      1. Creative algorithms has appeared that changed the way NN works.
         - For example using RELU function is so much better than using SIGMOID function in training a NN because it helps with the vanishing gradient problem.
 
-  ​
+  
 
 ## Neural Networks Basics
 
@@ -317,6 +317,7 @@ Here are the course summary as its given on the course [link](https://www.course
   - Don't hesitate to use `assert(a.shape == (5,1))` to check if your matrix shape is the required one.
   - If you've found a rank one matrix try to run reshape on it.
 - Jupyter / IPython notebooks are so useful library in python that makes it easy to integrate code and document at the same time. It runs in the browser and doesn't need an IDE to run.
+  
   - To open Jupyter Notebook, open the command line and call: `jupyter-notebook` It should be installed to work.
 - To Compute the derivative of Sigmoid:
 
