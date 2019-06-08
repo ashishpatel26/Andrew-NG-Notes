@@ -28,8 +28,6 @@
 
 ![](https://cdn-images-1.medium.com/max/1600/1*FPF01fzIQVEGxyje0QRFUg.gif)
 
-
-
 * **This Notes Give you introduction about :** 
   * [**Practical aspects of Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#practical-aspects-of-deep-learning)
   * [**Optimization algorithms**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#optimization-algorithms)
