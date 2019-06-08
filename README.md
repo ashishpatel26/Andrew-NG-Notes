@@ -26,14 +26,18 @@
 
 ![](https://cdn-images-1.medium.com/max/1600/1*FPF01fzIQVEGxyje0QRFUg.gif)
 
+
+
 * **This Notes Give you introduction about :** 
   * [**Practical aspects of Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#practical-aspects-of-deep-learning)
   * [**Optimization algorithms**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#optimization-algorithms)
-  * [**Hyperparameter tuning, Batch Normalization and Programming Frameworks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#hyperparameter-tuning-batch-normalization-and-programming-frameworks)**
+  * [**Hyperparameter tuning, Batch Normalization and Programming Frameworks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#hyperparameter-tuning-batch-normalization-and-programming-frameworks)
 
 ## [**3.Structure ML Projects**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)
 
 ![](https://i.pinimg.com/originals/9b/fa/97/9bfa978a4cf40fe2cdf8c710deb9b6f9.png)
+
+
 
 * **In This Notes, you can learn about How to Structure Machine Learning Project:**
   * [**Why ML Structure?**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md#ml-strategy-1)
@@ -80,4 +84,3 @@
 ![](https://cdn-images-1.medium.com/max/880/1*FpRS0C3EHQnELVaWRvb8bg.gif)
 
 **Thanks for Reading....Happy Learning...!!!**
-
