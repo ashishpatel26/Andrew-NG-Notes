@@ -72,7 +72,7 @@
 
 
 
-![](<https://cdn-images-1.medium.com/max/1600/1*oB3S5yHHhvougJkPXuc8og.gif>)
+![](https://cdn-images-1.medium.com/max/600/1*GdxHFaUDbvTXJreKg3S8SQ.gif)
 
 
 
