@@ -24,7 +24,9 @@
 
 ## [**2 Improving Deep learning Network**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)
 
-## ![](https://cdn-images-1.medium.com/max/1600/1*FPF01fzIQVEGxyje0QRFUg.gif)
+## ![](https://i.pinimg.com/originals/63/62/8f/63628f546ad55fd31091e23c623cb9f5.gif)
+
+
 
 * **This Notes Give you introduction about :** 
   * [**Practical aspects of Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md#practical-aspects-of-deep-learning)
