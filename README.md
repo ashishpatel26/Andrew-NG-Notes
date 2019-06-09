@@ -65,11 +65,10 @@
     - End-to-end deep learning
 
 ## [**4.Convolution Neural Network**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)
+---
 
 ![](https://cdn-images-1.medium.com/max/1600/1*oB3S5yHHhvougJkPXuc8og.gif)
 
-
----
 
 * **Matrix Multiplication Between Image and Kernel Known as *Convolution Operation***
 
