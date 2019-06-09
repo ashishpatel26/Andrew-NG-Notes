@@ -1,5 +1,3 @@
-
-
 # Andrew NG Notes Collection
 
 **This is the first course of the deep learning specialization at [Coursera](https://www.coursera.org/specializations/deep-learning) which is moderated by [DeepLearning.ai](http://deeplearning.ai/). The course is taught by Andrew Ng.**
@@ -7,7 +5,7 @@
 **<Span style="color:red;">Andrew NG Machine Learning Notebooks  :</span>**  [**Reading**](https://github.com/ashishpatel26/Andrew-NG-Notes/tree/master/Machine%20Learning%20notebooks%20By%20Andrew%20NG)   
 
 | **Sr No** | **Article Reading**                                          |
-| --------- | ------------------------------------------------------------ |
+| --------- | :----------------------------------------------------------- |
 | **1.**    | **[Neural Network Deep Learning](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)** |
 | **2.**    | **[Improving Deep learning Network](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)** |
 | **3.**    | **[Structure of ML Projects](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)** |
