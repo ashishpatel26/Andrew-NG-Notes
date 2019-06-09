@@ -12,6 +12,17 @@
 | **4.**    | **[Convolutions Neural Network](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)** |
 | **5.**    | **[Sequence Models](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md)** |
 
+| Sr. No | MOOC LECTURE LINK                                            |
+| ------ | ------------------------------------------------------------ |
+| 1.     | [**Machine learning by Andrew-NG**](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN) |
+|        | **DEEP LEARNING SERIES**                                     |
+| 1.     | [**Neural Network and Deep Learning**](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) |
+| 2.     | [**Improving deep neural networks: hyperparameter tuning, regularization and optimization**](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc) |
+| 3.     | [**Structuring Machine Learning Projects**](https://www.youtube.com/playlist?list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b) |
+| 4.     | [**Convolution Neural Network**](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF) |
+| 5.     | [**Sequence Models**](https://www.youtube.com/playlist?list=PLkDaE6sCZn6F6wUI9tvS_Gw1vaFAx6rd6) |
+| 6.     | [**CS230: Deep Learning \| Autumn 2018**](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb ) |
+
 ## [**1.Neural Network Deep Learning**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)   
 
 ## ![](https://systweak1.vo.llnwd.net/content/wp/systweakblogsnew/uploads_new/2018/03/hidden-layers-in-network.gif)
