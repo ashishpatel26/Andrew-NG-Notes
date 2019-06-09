@@ -69,7 +69,6 @@
 ![](https://cdn-images-1.medium.com/max/1600/1*oB3S5yHHhvougJkPXuc8og.gif)
 
 
-
 ---
 
 * **Matrix Multiplication Between Image and Kernel Known as *Convolution Operation***
