@@ -83,4 +83,14 @@
 
 ![](https://cdn-images-1.medium.com/max/880/1*FpRS0C3EHQnELVaWRvb8bg.gif)
 
+* **In This Section, you can learn about Sequence to Sequence Learning**
+
+  * [**Recurrent Neural Networks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md#recurrent-neural-networks)
+
+  * [**Natural Language Processing & Word Embeddings**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md#natural-language-processing--word-embeddings)
+
+  * [**Sequence models & Attention mechanism**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md#sequence-models--attention-mechanism)
+
+    
+
 **Thanks for Reading....Happy Learning...!!!**
