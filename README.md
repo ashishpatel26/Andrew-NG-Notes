@@ -133,9 +133,8 @@
 
   * Week1 - [**Recurrent Neural Networks**](https://nbviewer.jupyter.org/github/ashishpatel26/Andrew-NG-Notes/blob/master/Deep%20Learning%20Notebooks%20by%20Andrew%20NG/Sequence%20Models/Week1/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step.ipynb)
   * Week2 - [**Natural Language Processing & Word Embeddings**](https://github.com/ashishpatel26/Deep-Learning-Coursera/tree/master/Sequence%20Models/Week2)
-  
-* Week3 - [**Sequence models & Attention mechanism**](https://github.com/ashishpatel26/Deep-Learning-Coursera/tree/master/Sequence%20Models/Week3)
-  
+  * Week3 - [**Sequence models & Attention mechanism**](https://github.com/ashishpatel26/Deep-Learning-Coursera/tree/master/Sequence%20Models/Week3)
+
   
 
 **Thanks for Reading....Happy Learning...!!!**
