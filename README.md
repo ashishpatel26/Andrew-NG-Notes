@@ -4,6 +4,8 @@
 
 **<Span style="color:red;">Andrew NG Machine Learning Notebooks  :</span>**  [**Reading**](https://github.com/ashishpatel26/Andrew-NG-Notes/tree/master/Machine%20Learning%20notebooks%20By%20Andrew%20NG)   
 
+**<Span style="color:red;">Deep learning Specialization Notes in One pdf :</span>**  [**Reading**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/Deep%20learning%20by%20AndrewNG%20Tutorial%20%20Notes.pdf)
+
 | **Sr No** | **Article Reading**                                          |
 | --------- | :----------------------------------------------------------- |
 | **1.**    | **[Neural Network Deep Learning](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-1-neural-network-deep-learning.md)** |
