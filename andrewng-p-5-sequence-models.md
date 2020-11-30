@@ -160,7 +160,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - The weight matrix W<sub>aa</sub> is the memory the RNN is trying to maintain from the previous layers.
 - A lot of papers and books write the same architecture this way:  
   ![](https://raw.githubusercontent.com/ashishpatel26/DeepLearning.ai-Summary/master/5-%20Sequence%20Models/Images//03.png)
-  - It's harder to interpreter. It's easier to roll this drawings to the unrolled version.
+  - It's harder to interpret. It's easier to roll this drawings to the unrolled version.
 - In the discussed RNN architecture,  the current output y&#770;<sup>\<t></sup> depends on the previous inputs and activations.
 - Let's have this example 'He Said, "Teddy Roosevelt was a great president"'. In this example Teddy is a person name but we know that from the word **president** that came after Teddy not from **He** and **said** that were before it.
 - So limitation of the discussed architecture is that it can not learn from elements later in the sequence. To address this problem we will later discuss **Bidirectional RNN**  (BRNN).
