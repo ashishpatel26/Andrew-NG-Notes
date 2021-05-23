@@ -302,7 +302,7 @@ Here are the course summary as its given on the course [link](https://www.course
 
    			dz = A - Y                  # Vectorization, dz shape is (1, m)
    			dw = np.dot(X, dz.T) / m    # Vectorization, dw shape is (Nx, 1)
-   			db = dz.sum() / m           # Vectorization, dz shape is (1, 1)
+   			db = dz.sum() / m           # Vectorization, db shape is (1, 1)
 
 ### Notes on Python and NumPy
 
