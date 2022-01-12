@@ -445,6 +445,9 @@ Here are the course summary as its given on the course [link](https://www.course
 
     Or
     `A = np.tanh(z)   # Where z is the input matrix`
+    
+    ![image](https://user-images.githubusercontent.com/40623310/135577475-0b0fa892-4fb2-41f0-98bd-c382c8d46621.png)
+
 - It turns out that the tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero, and so it centers the data better for the next layer.
 - Sigmoid or Tanh function disadvantage is that if the input is too small or too high, the slope will be near zero which will cause us the gradient decent problem.
 - One of the popular activation functions that solved the slow gradient decent is the RELU function.
