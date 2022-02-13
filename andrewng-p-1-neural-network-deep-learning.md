@@ -612,8 +612,9 @@ Here are the course summary as its given on the course [link](https://www.course
 ### Getting your matrix dimensions right
 
 - The best way to debug your matrices dimensions is by a pencil and paper.
-- Dimension of `W` is `(n[l],n[l-1])` . Can be thought by right to left.
-- Dimension of `b` is `(n[l],1)`
+- Dimension of `W[l]` is `(n[l],n[l-1])` . Can be thought by right to left.
+- Dimension of `b[l]` is `(n[l],1)`
+- l=layer, n= number of nodes in a layer 'l'
 - `dw` has the same shape as `W`, while `db` is the same shape as `b`
 - Dimension of `Z[l],` `A[l]`, `dZ[l]`, and `dA[l]`  is `(n[l],m)`
 
