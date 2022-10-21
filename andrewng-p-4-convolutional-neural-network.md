@@ -8,7 +8,8 @@ This is the fourth course of the deep learning specialization at [Coursera](http
 * [**Part 2 : Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-2-improving-deep-learning-network.md)
 * [**Part-3: Structuring Machine Learning Projects**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-3-structuring-ml-projects.md)
 * [**Part-4 :Convolutional Neural Networks**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-4-convolutional-neural-network.md)
-* [**Part-5 : Sequence Models**](https://www.kaggle.com/ashishpatel26/andrewng-p-5-sequence-models)
+* [**Part-5 : Sequence Models**](https://github.com/ashishpatel26/Andrew-NG-Notes/blob/master/andrewng-p-5-sequence-models.md)
+
 
 ## Table of contents
 
