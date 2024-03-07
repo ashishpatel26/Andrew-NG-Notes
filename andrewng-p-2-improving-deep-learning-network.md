@@ -249,7 +249,7 @@ _**Implementation tip**_: if you implement gradient descent, one of the steps to
   - It reduces the generalization error.
   - You can use some snapshots of your NN at the training ensembles them and take the results.
 
-### Normalizing inputs
+### Normalizing inputs ( one of the techniques to speed up training  )
 
 - If you normalize your inputs this will speed up the training process a lot.
 - Normalization are going on these steps:
